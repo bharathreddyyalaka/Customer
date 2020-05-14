@@ -23,6 +23,7 @@ public class CustomerController {
         customer1.setEmail_id(customer.getEmail_id());
 
         customerDAO.insertValues(customer1);
+        System.out.println(customer);
         return customer;
     }
 }
